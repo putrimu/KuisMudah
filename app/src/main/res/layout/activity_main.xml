@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mu.android.belajar.kuismudah.MainActivity">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radio"
+        android:gravity="center"
+        android:layout_margin="40dp"
+        android:layout_below="@id/pertanyaan"
+        textColor="#e3f2fd"
+        >
+
+        <RadioButton
+            android:id="@+id/pilih1"
+            layout_bellow="@id/pertanyaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="pilihan 1"
+            android:textSize="20sp"
+            android:textColor="#E3F2FD"
+            android:buttonTint="@color/colorPrimary"/>
+
+        <RadioButton
+            android:id="@+id/pilih2"
+            layout_bellow="@id/pertanyaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="pilihan 2"
+            android:textSize="20sp"
+            android:textColor="#E3F2FD"
+            android:buttonTint="@color/colorPrimary"/>
+
+        <RadioButton
+            android:id="@+id/pilih3"
+            layout_bellow="@id/pertanyaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="pilihan 3"
+            android:textSize="20sp"
+            android:textColor="#E3F2FD"
+            android:buttonTint="@color/colorPrimary"/>
+
+        <RadioButton
+            android:id="@+id/pilih4"
+            layout_bellow="@id/pertanyaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="pilihan 4"
+            android:textSize="20sp"
+            android:textColor="#E3F2FD"
+            android:buttonTint="@color/colorPrimary"/>
+
+    </RadioGroup>
+
+</android.support.constraint.ConstraintLayout>
